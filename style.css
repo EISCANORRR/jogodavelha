@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+  }
+  .quad {
+    text-align: center;
+    width: 50px;
+    background-color: lightgray;
+    display: inline-block; /*ficar em linha*/
+    padding: 40px;
+    font-size: 60px;
+    margin: 5px;
+    cursor: pointer; /*mostra o cursor de mao quando o mouse passa sobre os quad*/
+    color: lightgray;
+  }
+  .jogador,
+  .vencedor {
+    font-size: 30px;
+    margin-top: 10px;
+  }
+  button {
+    margin-top: 10px;
+    width: 10%;
+    height: 30px;
+    background-color: rgb(219, 219, 219);
+    cursor: pointer;
+  }
+  h2 {
+      font-weight: normal;
+  }
+  #t4 {
+      border: 0px;
+      font-size: 20px;
+      width: 200px;
+      background-color: white;
+      border: 2px solid black;
+  }
+#geral {
+  display: none;
+}
+.musica1 {
+  position: relative;
+  margin-top: 10px;
+}
